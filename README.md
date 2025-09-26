@@ -260,7 +260,7 @@ Here are some of the DAX Calculations grouped by Categories (feel free to make c
 ________________________________________
 
 ### 2.3🔍 Visualisation
-#### 2.3.1. Relationships and Tables
+#### 2.3.1. Pages, Contents and Navigations
 
 The Dashboard content into five main pages:
 1. Cover Page: Should attend to the Major Questions and Big Numbers per Service Concerns;
@@ -290,17 +290,29 @@ The Dashboard content into five main pages:
 11. Insights
 12. Recommendations
 
-Considerations:
+#### 2.3.2. Considerations:
  - I use ordinary visuals to convey special values to users while making Navigation easy in a Story Telling Theme.
  - Navigation Style: I usually like to create simple Pages that make the Story Telling a Breeze with Navigations such as "Learn More | Go to Home Page | More about Costs | More about Re-admissions | More about Durations | Clear All Filters | Start Afresh"
  - Additionally, Click Buttons should have a pop out or call out thta says "Click here to follow link"
  - Additionally, there should be a secret page that can serve as a dictionary or provide more information about the report's content.
  - Did you find it?
+ - Since the number of hospital beds (capacity) was not provided, I defined the maximum bed capacity as three. I also decided encounters with class inpatient that last more than four hours are considered bed utilization.
 
-Fine Details:
+ - 
+
+#### 2.3.3. Fine Details:
  - Simple use of not more than 3-4 Colors an Fonts
  - Use of Home Navigations
  - Use of Page Navigations to flow through Pages and Access Certain Pages (Costs | Encounter | Procedures | Patients | Dictionary & Glossary)
+
+
+#### 2.3.1. Selected Visuals used
+ - The value for the selected time period (e.g., average cost per visit)
+ - To provide context: The comparison value for the previous time period (e.g., average cost per visit last month)
+ - Deltas between two values to highlight the differencs
+ - A bar chart showing the value for the selected time period (first bullet point) broken down by encounter class vs. previous time period (e.g., average cost per visit per encounter class vs. average cost per visit per encounter class last month)
+ - A line to show Targets
+ - A column chart (with zero space) to show if capacity utilization is at its limit.
 
 ________________________________________
  
