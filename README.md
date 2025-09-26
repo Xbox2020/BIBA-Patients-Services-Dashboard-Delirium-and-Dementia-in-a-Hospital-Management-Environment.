@@ -21,8 +21,11 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
 ________________________________________
-## 🎯 Problem Statement and Goal
-Many beginner web apps lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them.
+## 🎯 Problem Statement and Goals
+
+  (1) The Board of stakeholders needs and requirements are identified and responded to i this live data led dashboard.
+  
+  (2) Many beginner web dshboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
  
 ________________________________________
 
@@ -32,10 +35,16 @@ ________________________________________
 |-------------------------------|------------------------------------------------------------------------------ |
 | Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
 | Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
-| Fixed Code (commit 2)         | Secure logic, hashed DB, removed bugs                                       |
-| Automated Tests               | PyTest ensuring fixes work                                                  |
+| Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and bugs                                       |
+| DAX, M-Code and Table              | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each
+encounter.                                                |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
 | Instruction                   | How to run, replicate audit, and improve                                    |
+| Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
+| Instruction                   | How to run, replicate audit, and improve                                    |
+| Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
+| Instruction                   | How to run, replicate audit, and improve                                    |
+
 
 
 ________________________________________
