@@ -22,7 +22,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
-### 1.1 ☕ Buy me coffee 🧣 or a Cake 🧁
+###  ☕ Buy me coffee 🧣 or a Cake 🧁
 
 
 ________________________________________
@@ -216,7 +216,7 @@ ________________________________________
 # 4. 📸 Visual Gallery
 Before Fix	After Fix
 	
-### 1.1 ☕ Buy me coffee 🧣 or a Cake 🧁
+###  ☕ Buy me coffee 🧣 or a Cake 🧁
 ________________________________________
 # 5. 📹 Video Walkthrough
 
@@ -241,7 +241,7 @@ ________________________________________
 # 7. 👏 Credits
 This repo is designed for learning purposes and project portfolios. Inspired by real-world vulnerabilities and built for junior security analysts.
 ________________________________________
-### 1.1 ☕ Buy me coffee 🧣 or a Cake 🧁
+###  ☕ Buy me coffee 🧣 or a Cake 🧁�
 Feel free to fork and improve! 💪
 ________________________________________
 🛠️ Try It Yourself
