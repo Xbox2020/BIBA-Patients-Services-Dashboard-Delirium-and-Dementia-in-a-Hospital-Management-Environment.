@@ -34,8 +34,9 @@ ________________________________________
 
 ## 📌 Project Overview
 
-| **Section**                    | **Content & Purpose**                                                                 |
+| **Sections**                    | **Content & Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------ |
+| Instructions                  | Clear no Fluff Instructions are produced to show How to run, replicate audit, and improve this Project                                    |
 | Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
 | Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
 | Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and bugs                                       |
