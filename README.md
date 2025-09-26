@@ -23,7 +23,7 @@ ________________________________________
 | **Section**                    | **Content & Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------ |
 | Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) |
-| Audit Report                  | README explaining vulnerabilities, OWASP tags, CLI proof, screen GIFs       |
+| Dta Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV      |
 | Fixed Code (commit 2)         | Secure logic, hashed DB, removed bugs                                       |
 | Automated Tests               | PyTest ensuring fixes work                                                  |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
