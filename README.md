@@ -138,7 +138,7 @@ Before Screenshot:
 
 ________________________________________
 ### 2.2🔍 Data Modelling
-#### 3.1A. Relationships and Tables
+#### 2.1A. Relationships and Tables
 
 Special emphasis is laid here as a major area for the PL300.
 With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as an Analyst.
@@ -162,7 +162,7 @@ With the previous steps and preparations, the data model can be established for 
 | Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
-
+#### 2.1A. DAX and Measures
 
 
 ________________________________________
