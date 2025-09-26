@@ -6,9 +6,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 # 1. About the Project and Its Repo
   (a) 📚 This beginner-friendly project walks through building a web app, identifying key vulnerabilities of a Hospital Operation and Demand on Resources (based on the NHS Health Management Plan), Critical End-Points, and then fixing them with proper security controls, insights and business led decision making from Data. Ideal for your Analyst portfolio!
-   - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
-   - 
-   - 	Total Costs e.g. £691,757	 
+
 
   
   (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports in a story-telling way (industry sort requirement and a skill-Advantage for Analysts)around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
@@ -34,6 +32,9 @@ ________________________________________
 ## 1.1 🎯 Business Case, Problem Statement and Goals
 
   (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
+   - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
+   - 
+   - 	Total Costs e.g. £691,757	 
   
   (2) Many beginner web dshboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
 
@@ -138,7 +139,7 @@ Before Screenshot:
 
 - Step 2 : Identified Vulnerabilities 🕵️‍♀️ and possible Bottle-Necks.
   
-  (a) Dealing with Errors🧨🧨
+  (a) Dealing with Errors, missing and nulls: Treating these values from categorical data required easily filling-in with suitable names, while the rest of the data was well-recorded, with no misspellings or missing values.🧨🧨
   
   (b) Managing File Size 🚪🚪
   
