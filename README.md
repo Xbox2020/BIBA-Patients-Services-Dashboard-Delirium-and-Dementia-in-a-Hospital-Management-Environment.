@@ -66,6 +66,7 @@ ________________________________________
 •	Excel
 •	DAX
 •	SQL
+•	Basic Data Knowledge as related to the Sector and Business Case (Use of NHS Data Dictionary.
 ________________________________________
 
 # 2. Step by Step like in PL300
@@ -93,34 +94,39 @@ Or Copy this code to use;
             
 #### 2.1C. Get Data: Undersand the Data
 •	Open and connect to all related files.
-•	Watch Installation videos in Youtube Channel
+•	Watch Installation videos in Youtube Channel.
 
 
 #### 2.1D. Load, Transform and Profile
+•	Explains the Data Structure and files utilisation.
+•	Explains how certain Data is "cut-off" as required and to avoid redundancies with unnecessary uploads.
+
 
 Or Copy this code to use;
 						python app.py
 
+
+
 ##### Steps followed 🧪
 
-- Step 1 : Created secured connection to Daraset
+- Step 1 : Created secured connection to Dataset
   
-  (a) Stored passwords in plaintext 🧨
+  (a) Formated SQL Script from DB to only pull-in required Date Data 🧨
   
-  (b) No proper access control 🚪
+  (b) If using Excel or CSV Scripts and Files, Then modify Code to only display required Time periods. 🚪
   
-  (c) No input validation 🖊️
+  (c) Explains Merging or Appending the Data, a key Subject Area in PL300🖊️
   
 Before Screenshot: 
 
 
-- Step 2 : Identified Vulnerabilities 🕵️‍♀️
+- Step 2 : Identified Vulnerabilities 🕵️‍♀️ and possible Bottle-Necks.
   
-  (a) Broken Access Control 🧨🧨
+  (a) Dealing with Errors🧨🧨
   
-  (b) Insecure Direct Object References (IDOR) 🚪🚪
+  (b) Managing File Size 🚪🚪
   
-  (c) Sensitive Data Exposure 🖊️🖊️
+  (c) Structuring for Modelling and Relationships 🖊️🖊️
 
 	
 
@@ -134,6 +140,7 @@ Special emphasis is laid here as a major area for the PL300.
 With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as an Analyst.
  - Special consideration was given to the procedures table. Although there are possible links to dimension tables, the only relationship set is to the encounter table to ensure the correct linkage between encounters and procedures.
  - Use of Custom Tables, Calculations and Columns are also explored.
+ - Use of Custom and Conditional formatting is used to communicate impact of variances and chages across time-series analysis.
  - Automation is also included in several areas as would be the performance expectations.
 
  - 		
@@ -175,6 +182,10 @@ Considerations:
  - Additionally, there's a secret page that can serve as a dictionary or provide more information about the report's content.
  - Did you find it?
 
+Fine Details:
+ - Simple use of not more than 3-4 Colors an Fonts
+ - Use of Home Navigations
+ - Use of Page Navigations to flow through Pages and Access Certain Pages (Costs | Encounter | Procedures | Patients | Dictionary & Glossary)
 
 ________________________________________
  
