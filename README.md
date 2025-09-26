@@ -30,8 +30,8 @@ ________________________________________
 
 | **Section**                    | **Content & Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------ |
-| Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) |
-| Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV      |
+| Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
+| Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
 | Fixed Code (commit 2)         | Secure logic, hashed DB, removed bugs                                       |
 | Automated Tests               | PyTest ensuring fixes work                                                  |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
