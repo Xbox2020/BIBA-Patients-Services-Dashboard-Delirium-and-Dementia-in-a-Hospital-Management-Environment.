@@ -45,9 +45,8 @@ ________________________________________
 | Calculations                 | In Power BI Desktop: Built a calculated table from the encounters table for admissions and readmissions, obtaining the previous discharge date for each admission record using the Offset function in DAX. Also calculated LOS by minutes for non-admission encounters, and by days for admission encounters. Then built LOS bins for different minute ranges. Built an admission type calculated column to identify initial admissions and readmissions. Built a mortality indicator calculated column for mortality rate calculation.                                    |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
 | Combining Asset                    | Combined SQl, M-Code and DAX where required and Built all parameter tables for dynamic analysis.                                  |
+| Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
-| Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions                                    |
-
 
 
 ________________________________________
@@ -81,13 +80,13 @@ https://github.com/yourusername/flask-vuln-harden.git
 
             
 #### 3. Undersand the Data
-•	Opena and connect to all related files.
+•	Open and connect to all related files.
 •	Watch Installation videos in Youtube Channel
 
 
 
 
-#### 3. Start & Test  the app
+#### 4. Start & Test  the app
 						python app.py
 ________________________________________
  
@@ -128,9 +127,8 @@ Special consideration was given to the procedures table. Although there are poss
 | **Area of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
 | Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Admissions       | Grouping and Categorisation for Filters and Slicers       |  By definition, only the Inpatient class includes overnight visits, which should be identified as admissions. However, data showed that visits under different encounter classes also had overnight stays, with some showing hundreds of days of stay. Thus,
-admissions and non-admissions were built by looking at the days stayed in the hospital rather than only the encounter classes.                  |
-| A05:2021 - Security Misconfiguration     | No CSRF token            | Forms                      |
+| Admissions       | Grouping and Categorisation for Filters and Slicers       |  By definition, only the Inpatient class includes overnight visits, which should be identified as admissions. However, data showed that visits under different encounter classes also had overnight stays, with some showing hundreds of days of stay. Thus, admissions and non-admissions were built by looking at the days stayed in the hospital rather than only the encounter classes.                  |
+| Re-Admissions Lacuna    | No Clear Data            | For readmission rate calculation, initial admissions and readmissions need to be identified. Initially, only these two types were considered based on visit dates. However, many visits were regular daily visits over consecutive days and should not be counted as re-admissions.                    |
 
 
 
