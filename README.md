@@ -40,7 +40,7 @@ ________________________________________
 | Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
 | Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and bugs                                       |
 | DAX, M-Code and Table     | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each encounter.                          |
-| Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
+| Cheats and Special Visuals                        | Special DAx methods and Visuals are built.  e.g. Extracted the hour of each encounter visit to build a demand metric chart.      Grouped procedure table to get procedure line cost totals for each encounter, then merged this into the encounter table.                     |
 | Instruction                   | How to run, replicate audit, and improve                                    |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
 | Instruction                   | How to run, replicate audit, and improve                                    |
