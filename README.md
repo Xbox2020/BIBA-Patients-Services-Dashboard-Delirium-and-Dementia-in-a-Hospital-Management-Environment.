@@ -26,13 +26,13 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 
 ________________________________________
-## 1.1 🎯 Problem Statement and Goals
+## 1.1 🎯 Business Case, Problem Statement and Goals
 
-  (1) The Board of stakeholders needs and requirements are identified and responded to i this live data led dashboard.
+  (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
   
   (2) Many beginner web dshboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
 
-  (3) This learning is critical, as it provides practical structured knowledge that participants can apply towards the PL300 Microsoft Certification path.
+  (3) This learning is critical, as it provides practical structured knowledge that participants can apply towards the PL300 Microsoft Certification path, in such work environments and responding to impossible requirements.
 
   
 ________________________________________
@@ -42,8 +42,8 @@ ________________________________________
 | **Sections**                    | **Content & Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------ |
 | Instructions                  | Clear No-Fluff Instructions are produced to show How to run, replicate audit, and improve this Project Mandate.                                    |
-| Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
-| Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs from a Project Management PoV, and dealing with Assumptions when there is zero stakeholder clarity.      |
+| Data and its Exploration      | To understand Data Transformations, wrt admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
+| Data Profiling                  | Enables uderstanding of the Eco-space and Cleaning such Data, Managing Expectations and Seeking Stakeholder inputs from a Project Management PoV, and dealing with Assumptions when there is zero stakeholder clarity.      |
 | Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and common bugs.                                       |
 | DAX, M-Code and Table     | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each encounter.                          |
 | Cheats and Special Visuals                        | Special DAx methods and Visuals are built.  e.g. Extracted the hour of each encounter visit to build a demand metric chart.      Grouped procedure table to get procedure line cost totals for each encounter, then merged this into the encounter table.                     |
@@ -51,8 +51,8 @@ ________________________________________
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals.                            |
 | Combining Asset                    | Combined SQl, M-Code and DAX where required and Built all parameter tables for dynamic analysis.                                  |
 | Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
-| Assumptions and Standards                       | Use of Chat GPT              to understand and classify encounters (Inpatients, Emergencies and Visits)             |
-|  Landmines                     | Attention to Details Ability is Tested: As Cost Variances and Date distinctions are dirty data, which required cleaning before use.          |
+| Assumptions and Standards                       | Use of Chat GPT to understand and classify encounters (Inpatients, Emergencies and Visits), Build a Glossary from the Data Dictionary (An NHS standard)           |
+|  Landmines                     | Attention to Detail is Tested: As Cost Variances and Date distinctions are dirty data, which required cleaning before use.          |
 | Assumptions and Standards xxxxxxx                      | Use of Chat GPT      xxxxxxx        to understand and classify encounters (Inpatients, Emergencies and Visits)             |
 | Assumptions and Standards  xxxxxxxxx                     | Use of Chat GPT   xxxxxx           to understand and classify encounters (Inpatients, Emergencies and Visits)             |
 
@@ -127,9 +127,13 @@ ________________________________________
 #### 3.1A. Relationships and Tables
 
 Special emphasis is laid here as a major area for the PL300.
-With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as a Analyst.
+With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as an Analyst.
+ - Special consideration was given to the procedures table. Although there are possible links to dimension tables, the only relationship set is to the encounter table to ensure the correct linkage between encounters and procedures.
+ - Use of Custom Tables, Calculations and Columns are also explored.
+ - Automation is also included in several areas as would be the performance expectations.
 
-Special consideration was given to the procedures table. Although there are possible links to dimension tables, the only relationship set is to the encounter table to ensure the correct linkage between encounters and procedures.
+ - 		
+
 
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
@@ -150,17 +154,22 @@ ________________________________________
 
 ### 2.3🔍 Visualisation
 #### 2.3.1. Relationships and Tables
-3. Hardened the app (commit 2)
-•	✅ Implemented bcrypt password hashing
-•	✅ Added user role-based control
-•	✅ Validated all inputs with WTForms
-After Screenshot: 
-4. Added Automated Tests 🧪
-pytest
-Sample Test Snippet:
-def test_password_hashed():
-    assert not 'password123' in get_user_db_password()
 
+The Dashboard content into five main pages:
+1. Overview page: This page is designed for the executive team, providing answers to the main questions.
+2. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
+3. Encounters: This page distinguishes between admissions and visits, providing clear insights.
+4. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently
+performed procedures.
+5. Patient profiling: This page delves into patient profiles. A side note: I'm currently facing issues with the Azure map not
+working when embedded. I plan to resolve this after posting the challenge.
+
+
+Considerations:
+ - Use of ordinary visuals to convey special values to users while making Navigation easy in a Story Telling Theme.
+ - Navigation Style: I usually like to create simple Pages that make the Story Telling a Breeze
+ - Additionally, there's a secret page that can serve as a dictionary or provide more information about the report's content.
+ - Did you find it?
 
 
 ________________________________________
@@ -168,7 +177,7 @@ ________________________________________
 
 ### 2.4🔍 Secure and Publish 
 #### 2.4.1. Relationships and Tables
-5. CI Workflow 🌀
+1. CI Workflow 🌀
 GitHub Actions Workflow .github/workflows/main.yml
 name: Flask App Test
 on: [push]
@@ -212,6 +221,28 @@ ________________________________________
 •	Practice auditing and fixing real-world vulnerabilities
 •	Learn Python, Flask, bcrypt, and PyTest
 •	Demonstrate CI/CD integration for security workflows
+
+#### 3.2.3. Areas for Improvements:
+📊 1. Data Load: This page is designed for the executive team, providing answers to the main questions.
+•	
+•	
+
+⛓️‍💥 2. Modelling: This page focuses on encounter costs and related insurance information.3. Hardened the app (commit 2)
+•	Writing easy to understand Scripts
+•	Calculating other Metrics for effectiveness and profits in a non-profit driven eco-system.
+•	Reducing Files Upload and Calculation times, using lean data.
+
+
+
+✅ 3. Visualisation: 
+•	•	Including a Drill-through feature
+•	
+•	
+•	
+•	
+
+🛜 4. Publishing: 
+•	
 
 
 
