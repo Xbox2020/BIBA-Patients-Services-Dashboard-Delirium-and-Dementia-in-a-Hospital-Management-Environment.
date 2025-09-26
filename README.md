@@ -2,7 +2,7 @@
 
 
 # 🔐 BIBA-Patients-Services-Dashboard-Delirium-and-Dementia-in-a-Hospital-Management-Environment Project
-Welcome to the Flask Vulnerability Audit & Hardening project! 
+Welcome to this Hospital Management Critical Project! This is one of many, visit the Youtube Channel for more!!
 
 # 1. About the Project and Its Repo
   (a) 📚 This beginner-friendly project walks through building a web app, identifying key vulnerabilities of a Hospital Operation and Demand on Resources (based on the NHS Health Management Plan), Critical End-Points, and then fixing them with proper security controls, insights and business led decision making from Data. Ideal for your Analyst portfolio!
