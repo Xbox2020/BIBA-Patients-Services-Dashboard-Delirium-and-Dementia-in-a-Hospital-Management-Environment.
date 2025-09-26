@@ -22,6 +22,9 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### 1.1 ☕ Buy me coffee 🧣 or a Cake 🧁
+
+
 ________________________________________
 ## 1.1 🎯 Problem Statement and Goals
 
@@ -64,6 +67,8 @@ ________________________________________
 
 # 2. Step by Step like in PL300
 ## 2.1 💻 Installation & Setup	
+
+
 #### 2.1A. Set up the Environment	
 •	With your account, download and connect all related files.
 •	Watch Installation videos in Youtube Channel
@@ -182,6 +187,7 @@ ________________________________________
 # 3. Insights and Take-Away
 ### 3.1 💻 Busines Case
 #### 3.1.1. Management Summary
+
 💡 Side Notes & Developer Insights
 •	🎓 This project is built for learning. Vulnerabilities are included intentionally.
 •	🔁 Split commits to show vulnerable → secure evolution.
@@ -210,7 +216,7 @@ ________________________________________
 # 4. 📸 Visual Gallery
 Before Fix	After Fix
 	
-	
+### 1.1 ☕ Buy me coffee 🧣 or a Cake 🧁
 ________________________________________
 # 5. 📹 Video Walkthrough
 
@@ -235,6 +241,7 @@ ________________________________________
 # 7. 👏 Credits
 This repo is designed for learning purposes and project portfolios. Inspired by real-world vulnerabilities and built for junior security analysts.
 ________________________________________
+### 1.1 ☕ Buy me coffee 🧣 or a Cake 🧁
 Feel free to fork and improve! 💪
 ________________________________________
 🛠️ Try It Yourself
