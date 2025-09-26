@@ -256,13 +256,14 @@ The Dashboard content into five main pages:
    -    Average Cost Per Encounter e.g. £3,144 ((-3.5% | reduced by £120) and Formatted in Green with Up-pointing Arrow to show improvement.
      
 - 	How many patients have been admitted (over time)
-- 		xxxx
-   - 	Total Costs e.g. xx £3,457
-   - 	 Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
+- 		Total Costs e.g. £3,457
+- 		Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
+- 		
      
 - How long are patients staying in the hospital (Weekly and Monthly)
-   - Average Duration of a visit	e.g. 42 mins (-3.5% | reduced by 12mins) and Formatted in Green to show improvement.
-- 	
+- 		Average Duration of a visit	e.g. 42 mins (-3.5% | reduced by 12mins) and Formatted in Green to show improvement.
+
+- 
 3. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management. The core question it answers is: "Are we improving the quality and efficiency of patient care?"
 4. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
 5. Encounters: This page distinguishes between admissions and visits, providing clear insights.
