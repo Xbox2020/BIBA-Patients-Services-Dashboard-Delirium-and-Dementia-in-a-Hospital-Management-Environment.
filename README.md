@@ -80,8 +80,10 @@ ________________________________________
 
 
 #### 2.1B. Clone the repo or download the files to use on PC	
-Using the URL below, on the linked Repo, run the following;
-https://github.com/yourusername/flask-vuln-harden.git
+Using the URL below, on the linked Repo, run the following; https://github.com/yourusername/flask-vuln-harden.git
+
+Or Copy this code to use;
+
 
 						cd flask-vuln-harden
 						python3 -m venv venv
@@ -95,6 +97,8 @@ https://github.com/yourusername/flask-vuln-harden.git
 
 
 #### 2.1D. Load, Transform and Profile
+
+Or Copy this code to use;
 						python app.py
 
 ##### Steps followed 🧪
@@ -237,7 +241,7 @@ ________________________________________
       - Calculating other Metrics for effectiveness and profits in a non-profit driven eco-system.
       - Reducing Files Upload and Calculation times, using lean data.
 
-
+Or Copy this code to use;
 	  ### 2.1🔍 Copy this Code! 
 	  GitHub Actions Workflow .github/workflows/main.yml
 		name: Flask App Test
