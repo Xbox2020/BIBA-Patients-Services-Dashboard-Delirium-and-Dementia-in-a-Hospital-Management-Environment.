@@ -44,9 +44,9 @@ ________________________________________
 | Cheats and Special Visuals                        | Special DAx methods and Visuals are built.  e.g. Extracted the hour of each encounter visit to build a demand metric chart.      Grouped procedure table to get procedure line cost totals for each encounter, then merged this into the encounter table.                     |
 | Calculations                 | In Power BI Desktop: Built a calculated table from the encounters table for admissions and readmissions, obtaining the previous discharge date for each admission record using the Offset function in DAX. Also calculated LOS by minutes for non-admission encounters, and by days for admission encounters. Then built LOS bins for different minute ranges. Built an admission type calculated column to identify initial admissions and readmissions. Built a mortality indicator calculated column for mortality rate calculation.                                    |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
-| Instruction                   | How to run, replicate audit, and improve                                    |
+| Combining Asset                    | Combined SQl, M-Code and DAX where required and Built all parameter tables for dynamic analysis.                                  |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
-| Instruction                   | How to run, replicate audit, and improve                                    |
+| Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions                                    |
 
 
 
