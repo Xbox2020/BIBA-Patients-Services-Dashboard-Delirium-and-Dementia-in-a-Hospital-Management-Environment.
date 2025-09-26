@@ -23,7 +23,9 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
 ###  ☕ Buy me coffee 🧣 or a Cake 🧁
-
+   - Get Access to the Data.
+   - Get Unlimited Access to the Templates and Walk-through Videos.
+   - Collaborate with other Analysts to increase your worth, network and Value.
 
 ________________________________________
 ## 1.1 🎯 Business Case, Problem Statement and Goals
@@ -53,8 +55,8 @@ ________________________________________
 | Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
 | Assumptions and Standards                       | Use of Chat GPT to understand and classify encounters (Inpatients, Emergencies and Visits), Build a Glossary from the Data Dictionary (An NHS standard)           |
 |  Landmines                     | Attention to Detail is Tested: As Cost Variances and Date distinctions are dirty data, which required cleaning before use.          |
-| Glossary and Data Dictionary                     | Easy Explanation of Terms that are used in the Dashboard as related tohe Business Case             |
-| Assumptions and Standards  xxxxxxxxx                     | Use of Chat GPT   xxxxxx           to understand and classify encounters (Inpatients, Emergencies and Visits)             |
+| Glossary and Data Dictionary                     | Easy Explanation of Terms that are used in the Dashboard as related to the Business Case, so that users can understand what they are looking at and the mindset of/behind the Dashboard.    Included here is a Contact Email Link and Address.         |
+
 
 
 ________________________________________
@@ -247,20 +249,27 @@ ________________________________________
 #### 2.3.1. Relationships and Tables
 
 The Dashboard content into five main pages:
-1. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management. The core question it answers is: "Are we improving the quality and efficiency of patient care?"
-2. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
-3. Encounters: This page distinguishes between admissions and visits, providing clear insights.
-4. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently performed procedures.
-5. Patient profiling: This page delves into patient profiles. A side note: I'm currently facing issues with the Azure map not working when embedded. I plan to resolve this after posting the challenge.
-6. How to Use Page: Defines the Navigation for non-tech users to utilise the dashboard effectively and efficiently.
-7. Time Series Analysis: It transforms raw data into a story over time. Spotting Trends, showing patterns, helping with Froecasting and measuring impacts. In a hospital, a Time Series Analysis page is vital because it turns operational and clinical data into a "heartbeat" of the hospital's health over time.
-8. Forecast Page
-9. Insights
-10. Recommendations
+1. Cover Page: Should attend to the Major Questions;
+   - How Much is the average cost per encounter (QTD)
+   - 	Total Costs e.e $691,757
+   - 	Average Cost Per Encounter £3,144
+   - 	Variance over the period e.g. -14.8 (formated in Red or Green colours or with Arorws pointing up or down to convey if good or bad from last values)
+- 	How many patients have been admitted (over time)?
+- 	
+3. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management. The core question it answers is: "Are we improving the quality and efficiency of patient care?"
+4. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
+5. Encounters: This page distinguishes between admissions and visits, providing clear insights.
+6. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently performed procedures.
+7. Patient profiling: This page delves into patient profiles. A side note: I'm currently facing issues with the Azure map not working when embedded. I plan to resolve this after posting the challenge.
+8. How to Use Page: Defines the Navigation for non-tech users to utilise the dashboard effectively and efficiently.
+9. Time Series Analysis: It transforms raw data into a story over time. Spotting Trends, showing patterns, helping with Froecasting and measuring impacts. In a hospital, a Time Series Analysis page is vital because it turns operational and clinical data into a "heartbeat" of the hospital's health over time.
+10. Forecast Page
+11. Insights
+12. Recommendations
 
 Considerations:
- - Use of ordinary visuals to convey special values to users while making Navigation easy in a Story Telling Theme.
- - Navigation Style: I usually like to create simple Pages that make the Story Telling a Breeze
+ - I use ordinary visuals to convey special values to users while making Navigation easy in a Story Telling Theme.
+ - Navigation Style: I usually like to create simple Pages that make the Story Telling a Breeze with Navigations such as "Learn More | Go to Home Page | More about Costs | More about Re-admissions | More about Durations | Clear All Filters | Start Afresh"
  - Additionally, there's a secret page that can serve as a dictionary or provide more information about the report's content.
  - Did you find it?
 
