@@ -256,7 +256,7 @@ The Dashboard content into five main pages:
    -    Average Cost Per Encounter e.g. £3,144 ((-3.5% | reduced by £120) and Formatted in Green with Up-pointing Arrow to show improvement.
      
 - 	How many patients have been admitted (over time)?
-   - 	Total Admissions e.g. 3,457
+   - 	Total Costs e.g. xx £3,457
    - 	 Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
      
 - How long are patients staying in the hospital (Weekly and Monthly)
