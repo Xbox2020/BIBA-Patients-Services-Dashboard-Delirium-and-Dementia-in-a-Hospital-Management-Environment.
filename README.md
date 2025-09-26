@@ -102,7 +102,7 @@ Or Copy this code to use;
 
 
             
-#### 2.1C. Get Data: Undersand the Data
+#### 2.1C. Get Data: Understand the Data
 •	Open and connect to all related files.
 
 •	Watch Installation videos in Youtube Channel.
@@ -249,12 +249,18 @@ ________________________________________
 #### 2.3.1. Relationships and Tables
 
 The Dashboard content into five main pages:
-1. Cover Page: Should attend to the Major Questions;
-   - How Much is the average cost per encounter (QTD)
-   - 	Total Costs e.e $691,757
-   - 	Average Cost Per Encounter £3,144
-   - 	Variance over the period e.g. -14.8 (formated in Red or Green colours or with Arorws pointing up or down to convey if good or bad from last values)
+1. Cover Page: Should attend to the Major Questions and Big Numbers per Service Concerns;
+- How Much is the average cost per encounter (QTD)
+   - 	Total Costs e.g. £691,757
+   - 	Variance over the period e.g. (-14.8% | reduced by £12,000) and Formated in Green with Arorws pointing down to convey Cost Reductions when good or red for bad and arrows pointing up to show increased costs from last values).
+   -    Average Cost Per Encounter e.g. £3,144 ((-3.5% | reduced by £120) and Formatted in Green with Up-pointing Arrow to show improvement.
+     
 - 	How many patients have been admitted (over time)?
+   - 	Total Admissions e.g. 3,457
+   - 	 Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
+     
+- How long are patients staying in the hospital (Weekly and Monthly)
+   - Average Duration of a visit	e.g. 42 mins (-3.5% | reduced by 12mins) and Formatted in Green to show improvement.
 - 	
 3. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management. The core question it answers is: "Are we improving the quality and efficiency of patient care?"
 4. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
@@ -270,7 +276,8 @@ The Dashboard content into five main pages:
 Considerations:
  - I use ordinary visuals to convey special values to users while making Navigation easy in a Story Telling Theme.
  - Navigation Style: I usually like to create simple Pages that make the Story Telling a Breeze with Navigations such as "Learn More | Go to Home Page | More about Costs | More about Re-admissions | More about Durations | Clear All Filters | Start Afresh"
- - Additionally, there's a secret page that can serve as a dictionary or provide more information about the report's content.
+ - Additionally, Click Buttons should have a pop out or call out thta says "Click here to follow link"
+ - Additionally, there should be a secret page that can serve as a dictionary or provide more information about the report's content.
  - Did you find it?
 
 Fine Details:
