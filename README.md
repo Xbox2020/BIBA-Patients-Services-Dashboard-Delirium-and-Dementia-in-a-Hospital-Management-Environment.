@@ -33,8 +33,9 @@ ________________________________________
 
   (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
    - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
-- This approach allows executives to receive the most relevant information in just a few seconds.
-- Easy flow and navigation to Key Metrics and should consist of high-level KPIs;
+- a. This approach allows executives to receive the most relevant information in just a few seconds.
+  
+- b. Easy flow and navigation to Key Metrics and should consist of high-level KPIs;
 
    - 	Total Costs
    - 	The count of admissions
@@ -42,6 +43,8 @@ ________________________________________
    - 	The average cost per visit
    - 	The percentage of costs covered by insurances
    - 	The occupancy of the hospital beds
+ 
+- c. Insights into Contractors contribution to Patient 1st ;
   
   (2) Many beginner web dashboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
 
@@ -198,7 +201,10 @@ Here are some of the DAX Calculations grouped by Categories (feel free to make c
 | Hospital Admissions (from ER & other sources)        | Gives insights into bed demand.    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
 | Average Patient Length of Stay (ALOS)        | A key efficiency metric. A lower ALOS (without harming care) indicates effective treatment and bed turnover.    | Key Performance Indicator (KPI) cards: Displaying current vs. last month's figures would give a hospital CEO or department head an immediate, data-driven understanding of both the quality of care and the efficiency of the hospital's operations. |
 | Bed Occupancy Rate        | The percentage of beds filled. Too high (>85-90%) can lead to overcrowding and staff burnout; too low is inefficient.    | KPI Cards of Variances would give a hospital CEO or department head an immediate, data-driven understanding of both the quality of care and the efficiency of the hospital's operations.  |
-| Total Patients         | All Patients Encounters    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
+| Capacity Bed Utilization        | Shows hospital bed occupancy, and if capacity utilization is at its limit.    | This measure calculation also allows to reflect capacity utilization for new data, where the encounter is not finished yet. |
+| Total Patients         | xxxxxxxxxxxAll Patients Encounters    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
+
+Capacity Bed Utilization
 
 
 ##### Clinical Outcome Metrics (Quality of Care)
