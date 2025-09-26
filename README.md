@@ -26,7 +26,10 @@ ________________________________________
   (1) The Board of stakeholders needs and requirements are identified and responded to i this live data led dashboard.
   
   (2) Many beginner web dshboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
- 
+
+  (3) This learning is critical, as it provides practical structured knowledge that participants can apply towards the PL300 Microsoft Certification path.
+
+  
 ________________________________________
 
 ## 📌 Project Overview
