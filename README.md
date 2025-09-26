@@ -53,7 +53,7 @@ ________________________________________
 | Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
 | Assumptions and Standards                       | Use of Chat GPT to understand and classify encounters (Inpatients, Emergencies and Visits), Build a Glossary from the Data Dictionary (An NHS standard)           |
 |  Landmines                     | Attention to Detail is Tested: As Cost Variances and Date distinctions are dirty data, which required cleaning before use.          |
-| Assumptions and Standards xxxxxxx                      | Use of Chat GPT      xxxxxxx        to understand and classify encounters (Inpatients, Emergencies and Visits)             |
+| Glossary and Data Dictionary                     | Easy Explanation of Terms that are used in the Dashboard as related tohe Business Case             |
 | Assumptions and Standards  xxxxxxxxx                     | Use of Chat GPT   xxxxxx           to understand and classify encounters (Inpatients, Emergencies and Visits)             |
 
 
@@ -173,7 +173,8 @@ With the previous steps and preparations, the data model can be established for 
 
 - Here are some of the DAX Calculations grouped by Categories (feel free to make changes);
 - 
-- Performance and Operational Efficiency (aka Demand/Utilisation of Resources).
+- Performance and Operational Efficiency (aka Patient Volume & Flow Metrics, Demand/Utilisation of Resources).
+	- These track the "throughput" of the hospital. Crowding and delays here directly impact patient care.
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
@@ -183,13 +184,16 @@ With the previous steps and preparations, the data model can be established for 
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+
+
+- Clinical Outcome Metrics (Quality of Care)
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
 
-- Time Series (aka Sustainability and Provisioning).
+- Time Series (aka Operational Efficiency, Sustainability and Provisioning).
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
@@ -222,14 +226,16 @@ ________________________________________
 #### 2.3.1. Relationships and Tables
 
 The Dashboard content into five main pages:
-1. Overview page: This page is designed for the executive team, providing answers to the main questions.
+1. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management. The core question it answers is: "Are we improving the quality and efficiency of patient care?"
 2. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
 3. Encounters: This page distinguishes between admissions and visits, providing clear insights.
-4. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently
-performed procedures.
-5. Patient profiling: This page delves into patient profiles. A side note: I'm currently facing issues with the Azure map not
-working when embedded. I plan to resolve this after posting the challenge.
-
+4. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently performed procedures.
+5. Patient profiling: This page delves into patient profiles. A side note: I'm currently facing issues with the Azure map not working when embedded. I plan to resolve this after posting the challenge.
+6. How to Use Page: Defines the Navigation for non-tech users to utilise the dashboard effectively and efficiently.
+7. Time Series Analysis: It transforms raw data into a story over time. Spotting Trends, showing patterns, helping with Froecasting and measuring impacts. In a hospital, a Time Series Analysis page is vital because it turns operational and clinical data into a "heartbeat" of the hospital's health over time.
+8. Forecast Page
+9. Insights
+10. Recommendations
 
 Considerations:
  - Use of ordinary visuals to convey special values to users while making Navigation easy in a Story Telling Theme.
