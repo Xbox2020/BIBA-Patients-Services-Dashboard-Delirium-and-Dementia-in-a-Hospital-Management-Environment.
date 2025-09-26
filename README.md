@@ -210,7 +210,7 @@ o	Docker container with default weak settings
 o	Role-based access matrix
 
 #### 3.2. Industry Learning
-#### 3.2.1. Management Summary
+#### 3.2.1. Business Case Standards
 💡 Side Notes & Developer Insights
 •	🎓 This project is built for learning. Vulnerabilities are included intentionally.
 •	🔁 Split commits to show vulnerable → secure evolution.
@@ -222,20 +222,19 @@ ________________________________________
 •	Learn Python, Flask, bcrypt, and PyTest
 •	Demonstrate CI/CD integration for security workflows
 
-#### 3.2.3. Areas for Improvements:
-📊 1. Data Load: This page is designed for the executive team, providing answers to the main questions.
-•	
-•	
+________________________________________
+
+#### 3.2.3.  🌀 Areas for Improvements:
+📊 1. Data Load: 
+      - This page is designed for the executive team, providing answers to the main questions.
+	  - 
+
 
 ⛓️‍💥 2. Modelling: This page focuses on encounter costs and related insurance information.3. Hardened the app (commit 2)
-•	Writing easy to understand Scripts
-•	Calculating other Metrics for effectiveness and profits in a non-profit driven eco-system.
-•	Reducing Files Upload and Calculation times, using lean data.
+      - Writing easy to understand Scripts
+      - Calculating other Metrics for effectiveness and profits in a non-profit driven eco-system.
+      - Reducing Files Upload and Calculation times, using lean data.
 
-
-
-✅ 3. Visualisation: 
-      - Including a Drill-through feature
 
 	  ### 3.1🔍 Copy this Code! 
 	  GitHub Actions Workflow .github/workflows/main.yml
@@ -246,9 +245,12 @@ ________________________________________
   		runs-on: ubuntu-latest
     	steps:
 
-	  
-#### 3.1. Relationships and Tables
-1. CI Workflow 🌀 
+
+✅ 3. Visualisation: 
+      - Including special features (Drill-through, Bookmarks, Tooltips)
+      - 	  
+      - 
+      - 
       - uses: actions/checkout@v2
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -256,13 +258,12 @@ ________________________________________
    	  - python-version: '3.10'
       - run: pip install -r requirements.txt
       - run: pytest
-•	
-•	
-•	
-•	
+
 
 🛜 4. Publishing: 
-•	
+      - 	  
+      - 
+      - 
 
 
 
