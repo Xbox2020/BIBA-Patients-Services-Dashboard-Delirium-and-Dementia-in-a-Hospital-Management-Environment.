@@ -39,8 +39,7 @@ ________________________________________
 | Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
 | Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
 | Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and bugs                                       |
-| DAX, M-Code and Table              | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each
-encounter.                                                |
+| DAX, M-Code and Table     | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each encounter.                          |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
 | Instruction                   | How to run, replicate audit, and improve                                    |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
