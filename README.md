@@ -145,7 +145,7 @@ Before Screenshot:
 
 ________________________________________
 ### 2.2🔍 Data Modelling
-#### 2.1A. Relationships and Tables
+#### 2.1b. Relationships and Tables
 
 Special emphasis is laid here as a major area for the PL300.
 With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as an Analyst.
@@ -169,32 +169,62 @@ With the previous steps and preparations, the data model can be established for 
 | Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
-#### 2.1A. DAX and Measures
+#### 2.1b. DAX and Measures
+Here are some of the DAX Calculations grouped by Categories (feel free to make changes);
 
-- Here are some of the DAX Calculations grouped by Categories (feel free to make changes);
-- 
-- Performance and Operational Efficiency (aka Patient Volume & Flow Metrics, Demand/Utilisation of Resources).
+##### Performance and Operational Efficiency (aka Patient Volume & Flow Metrics, Demand/Utilisation of Resources).
 	- These track the "throughput" of the hospital. Crowding and delays here directly impact patient care.
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
+| Daily/Weekly ER Visits         | Identifies busy periods to optimize staff scheduling.    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
+| Hospital Admissions (from ER & other sources)        | Gives insights into bed demand.    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
+| Average Patient Length of Stay (ALOS)        | A key efficiency metric. A lower ALOS (without harming care) indicates effective treatment and bed turnover.    | Key Performance Indicator (KPI) cards: Displaying current vs. last month's figures would give a hospital CEO or department head an immediate, data-driven understanding of both the quality of care and the efficiency of the hospital's operations. |
+| Bed Occupancy Rate        | The percentage of beds filled. Too high (>85-90%) can lead to overcrowding and staff burnout; too low is inefficient.    | KPI Cards of Variances would give a hospital CEO or department head an immediate, data-driven understanding of both the quality of care and the efficiency of the hospital's operations.  |
+| Total Patients         | All Patients Encounters    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
 
 
-- Clinical Outcome Metrics (Quality of Care)
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+##### Clinical Outcome Metrics (Quality of Care)
+	- These are the most important metrics, directly reflecting the quality of care provided.
+	
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
+|------------------------------------------|--------------------------|----------------------------|	
+| Hospital-Acquired Infection (HAI) Rate        | (e.g., MRSA, C. diff). This is a critical patient safety metric. The goal is to see a downward trend over time.    | xxxxxxxxxxxxxxxxxxxx  |
+| Patient Readmission Rate (within 30 days)       | A high rate can indicate patients were discharged too early or without proper follow-up care. A downward trend is the goal.    | Key Performance Indicator (KPI) cards: Displaying current vs. last month's figures  |
+| Mortality Rate        | Tracked overall or for specific procedures/conditions. Used to identify unexpected spikes or trends.    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  |
+| Patient Fall Rate       | Tracks the effectiveness of fall-prevention protocols.   | A large line chart: Showing the "Monthly Hospital-Acquired Infection Rate" for the past two years, with a goal line. Everyone can instantly see if patient safety is improving.  |
 
 
 
-- Time Series (aka Operational Efficiency, Sustainability and Provisioning).
 
+##### Time Series (aka Resource Utilization & Timeliness, Operational Efficiency, Sustainability and Provisioning).
+	- These measure how quickly and effectively patients receive care.
+
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
+|------------------------------------------|--------------------------|----------------------------|
+| ER Wait Time (Door-to-Doctor)        | The average time a patient waits to be seen by a physician. A shorter, stable time indicates good ER flow.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Surgery Cancellation Rate         | Tracks operating room efficiency. A high or rising rate indicates scheduling or resource problems.    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Medication Administration Timeliness        | The percentage of medications given on schedule.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Monthly Hospital-Acquired Infection Rate       | Tracks the effectiveness of xxxxxxxxxxxx   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Weekly Average ER Wait Time      | Tracks the effectiveness of xxxxxxxxxxx  | A bar chart below it: Showing "Average ER Wait Time" by week. A spike would prompt an immediate investigation.  |
+| Patient Fall Rate       | Tracks the effectiveness of fall-prevention protocols.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+
+
+##### Staffing & Efficiency Metrics.
+	- These connect workforce management to patient outcomes.
+
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
+|------------------------------------------|--------------------------|----------------------------|
+| Nurse-to-Patient Ratio        | Tracking this over time can reveal correlations with patient fall rates or infection rates.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Overtime Hours        | A rising trend may indicate chronic understaffing, which can lead to staff burnout and errors.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Staff Absentism and Reasons         | Staffing and Human Capital Mananagement   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Bank Staffing Utilisations Ratio         | Staffing and Human Capital Mananagement wrt Business Model     | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+
+
+
+##### Costs and Finances (Aka Profitability)
+	- These connect workforce management, patient outcomes and resource utilization to Operating Profitability.
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
@@ -207,18 +237,9 @@ With the previous steps and preparations, the data model can be established for 
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
-- Costs and Finances (Aka Profitability)
 
-| **Areas of Interest**                       | **Logic**         | **Notes**              |
-|------------------------------------------|--------------------------|----------------------------|
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+
+
 
 ________________________________________
 
