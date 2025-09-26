@@ -51,7 +51,10 @@ ________________________________________
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals.                            |
 | Combining Asset                    | Combined SQl, M-Code and DAX where required and Built all parameter tables for dynamic analysis.                                  |
 | Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
-| Assumptions and Standards                       | `/gifs`, `/screenshots`, README embedded visuals                            |
+| Assumptions and Standards                       | Use of Chat GPT              to understand and classify encounters (Inpatients, Emergencies and Visits)             |
+|  Landmines                     | Attention to Details Ability is Tested: As Cost Variances and Date distinctions are dirty data, which required cleaning before use.          |
+| Assumptions and Standards xxxxxxx                      | Use of Chat GPT      xxxxxxx        to understand and classify encounters (Inpatients, Emergencies and Visits)             |
+| Assumptions and Standards  xxxxxxxxx                     | Use of Chat GPT   xxxxxx           to understand and classify encounters (Inpatients, Emergencies and Visits)             |
 
 
 ________________________________________
