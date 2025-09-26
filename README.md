@@ -5,15 +5,18 @@
 Welcome to the Flask Vulnerability Audit & Hardening project! 
 
 # 1. About the Project and Its Repo
-  (a) 📚 This beginner-friendly project walks through building a deliberately insecure web app, identifying key vulnerabilities (based on the OWASP Top 10), and then fixing them with proper security controls. Ideal for your cybersecurity portfolio!
+  (a) 📚 This beginner-friendly project walks through building a web app, identifying key vulnerabilities of a Hospital Operation and Demand on Resources (based on the NHS Health Management Plan), Critical End-Points, and then fixing them with proper security controls, insights and business led decision making from Data. Ideal for your Analyst portfolio!
 
   
-  (b) 👨‍🏫👩🏼‍🏫👨‍🎓 Teaches how to build reports around patient, encounter, and procedure data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
+  (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
+     - Attributes from encounters and procedures, including encounter class, encounter description, procedure description, and procedure reasons.
 
   
-  (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competecies and exam topics)
-
-
+  (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competencies and exam topics)
+   - Identifies key metrics and attributes for each analysis section
+   - Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
+   - General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
+   - Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
