@@ -128,7 +128,9 @@ Special consideration was given to the procedures table. Although there are poss
 | **Area of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
 | Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| A02:2021 - Cryptographic Failures        | Plaintext password       | `app.py`                   |
+| Admissions       | Grouping and Categorisation for Filters and Slicers       |  By definition, only the Inpatient class includes overnight visits, which should be identified as admissions. However, data showed
+that visits under different encounter classes also had overnight stays, with some showing hundreds of days of stay. Thus,
+admissions and non-admissions were built by looking at the days stayed in the hospital rather than only the encounter classes.                  |
 | A05:2021 - Security Misconfiguration     | No CSRF token            | Forms                      |
 
 
