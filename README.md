@@ -117,13 +117,21 @@ Before Screenshot:
 
 
 ________________________________________
-### 🔍 Audit Table
+### 🔍 Data Model
 
-| **OWASP Category**                       | **Description**         | **Found In**              |
+Special emphasis is laid here as a major area for the PL300.
+With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as a Analyst.
+
+Special consideration was given to the procedures table. Although there are possible links to dimension tables, the only relationship set is to the encounter table to ensure the correct linkage between encounters and procedures.
+
+
+| **Area of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
-| A01:2021 - Broken Access Control         | Admin toggle via URL     | `/dashboard?admin=true`   |
+| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range Instead of fiscal year.  |
 | A02:2021 - Cryptographic Failures        | Plaintext password       | `app.py`                   |
 | A05:2021 - Security Misconfiguration     | No CSRF token            | Forms                      |
+
+
 
 
 
