@@ -35,13 +35,12 @@ ________________________________________
    - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
 - Easy flow and navigation to Key Metrics and should consist of high-level KPIs.
 
-   - 	Total Costs e.g. £691,757
    - 	Total Costs
-   - The count of admissions
-   - The average duration per visit
-   - The average cost per visit
-   - The percentage of costs covered by insurances
-   - The occupancy of the hospital beds
+   - 	The count of admissions
+   - 	The average duration per visit
+   - 	The average cost per visit
+   - 	The percentage of costs covered by insurances
+   - 	The occupancy of the hospital beds
   
   (2) Many beginner web dshboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
 
