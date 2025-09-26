@@ -33,7 +33,8 @@ ________________________________________
 
   (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
    - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
-- Easy flow and navigation to Key Metrics and should consist of high-level KPIs.
+- This approach allows executives to receive the most relevant information in just a few seconds.
+- Easy flow and navigation to Key Metrics and should consist of high-level KPIs;
 
    - 	Total Costs
    - 	The count of admissions
@@ -42,7 +43,7 @@ ________________________________________
    - 	The percentage of costs covered by insurances
    - 	The occupancy of the hospital beds
   
-  (2) Many beginner web dshboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
+  (2) Many beginner web dashboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
 
   (3) This learning is critical, as it provides practical structured knowledge that participants can apply towards the PL300 Microsoft Certification path, in such work environments and responding to impossible requirements.
 
@@ -148,6 +149,9 @@ Before Screenshot:
   (a) Dealing with Errors, missing and nulls: Treating these values from categorical data required easily filling-in with suitable names, while the rest of the data was well-recorded, with no misspellings or missing values.🧨🧨
   
   (b) Managing File Size 🚪🚪
+   - 	I chose to only focus on encounters because they include all information, from simple check-ups to complex operations,  providing an unfiltered overview of the hospital.
+
+   - 	The only interaction on this page is the month and year filter, enabling executives to view monthly, yearly, and year-to-date performance if the year is incomplete. The chart titles and texts change accordingly.
   
   (c) Structuring for Modelling and Relationships 🖊️🖊️
 
