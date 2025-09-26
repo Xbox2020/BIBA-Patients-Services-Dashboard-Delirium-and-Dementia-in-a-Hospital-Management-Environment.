@@ -23,7 +23,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
 ________________________________________
-## 🎯 Problem Statement and Goals
+## 1.1 🎯 Problem Statement and Goals
 
   (1) The Board of stakeholders needs and requirements are identified and responded to i this live data led dashboard.
   
@@ -34,7 +34,7 @@ ________________________________________
   
 ________________________________________
 
-## 📌 Project Overview
+## 1.2📌 Project Overview
 
 | **Sections**                    | **Content & Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------ |
@@ -62,16 +62,16 @@ ________________________________________
 •	SQL
 ________________________________________
 
-# 2. Step by Step
-### 💻 Installation & Setup	
-#### 1. Set up the Environment	
+# 2. Step by Step like in PL300
+## 2.1 💻 Installation & Setup	
+#### 2.1A. Set up the Environment	
 •	With your account, download and connect all related files.
 •	Watch Installation videos in Youtube Channel
 
 
 
 
-#### 2. Clone the repo or download the files to use on PC	
+#### 2.1B. Clone the repo or download the files to use on PC	
 Using the URL below, on the linked Repo, run the following;
 https://github.com/yourusername/flask-vuln-harden.git
 
@@ -81,17 +81,14 @@ https://github.com/yourusername/flask-vuln-harden.git
 						pip install -r requirements.txt
 
             
-#### 3. Get Data: Undersand the Data
+#### 2.1C. Get Data: Undersand the Data
 •	Open and connect to all related files.
 •	Watch Installation videos in Youtube Channel
 
 
-
-
-#### 4. Load, Transform and Profile
+#### 2.1D. Load, Transform and Profile
 						python app.py
-________________________________________
- 
+
 ##### Steps followed 🧪
 
 - Step 1 : Created secured connection to Daraset
@@ -118,8 +115,8 @@ Before Screenshot:
 
 
 ________________________________________
-### 🔍 Data Modelling
-#### 1. Relationships and Tables
+### 2.2🔍 Data Modelling
+#### 3.1A. Relationships and Tables
 
 Special emphasis is laid here as a major area for the PL300.
 With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as a Analyst.
@@ -141,8 +138,10 @@ Special consideration was given to the procedures table. Although there are poss
 
 
 
-### 🔍 Visualisation
-#### 1. Relationships and Tables
+________________________________________
+
+### 2.3🔍 Visualisation
+#### 2.3.1. Relationships and Tables
 3. Hardened the app (commit 2)
 •	✅ Implemented bcrypt password hashing
 •	✅ Added user role-based control
@@ -156,10 +155,11 @@ def test_password_hashed():
 
 
 
+________________________________________
+ 
 
-
-### 🔍 Secure and Publish 
-#### 1. Relationships and Tables
+### 2.4🔍 Secure and Publish 
+#### 2.4.1. Relationships and Tables
 5. CI Workflow 🌀
 GitHub Actions Workflow .github/workflows/main.yml
 name: Flask App Test
@@ -176,6 +176,12 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pytest
 ________________________________________
+
+________________________________________
+
+# 3. Insights and Take-Away
+### 3.1 💻 Busines Case
+#### 3.1.1. Management Summary
 💡 Side Notes & Developer Insights
 •	🎓 This project is built for learning. Vulnerabilities are included intentionally.
 •	🔁 Split commits to show vulnerable → secure evolution.
@@ -184,15 +190,34 @@ ________________________________________
 o	Bandit/Flake8 static code analysis
 o	Docker container with default weak settings
 o	Role-based access matrix
+
+#### 3.2. Industry Learning
+#### 3.2.1. Management Summary
+💡 Side Notes & Developer Insights
+•	🎓 This project is built for learning. Vulnerabilities are included intentionally.
+•	🔁 Split commits to show vulnerable → secure evolution.
+
 ________________________________________
-📸 Visual Gallery
+#### 3.2.2. ✅ Key Takeaways
+•	Understand how OWASP Top 10 flaws appear in small web apps
+•	Practice auditing and fixing real-world vulnerabilities
+•	Learn Python, Flask, bcrypt, and PyTest
+•	Demonstrate CI/CD integration for security workflows
+
+
+
+________________________________________
+# 4. 📸 Visual Gallery
 Before Fix	After Fix
 	
 	
 ________________________________________
-📹 Video Walkthrough
+# 5. 📹 Video Walkthrough
+
+
+
 ________________________________________
-📜 Scripts & Code Snippets
+# 6. 📜 Scripts & Code Snippets
 Plaintext Password (Bad):
 users[username] = password  # 😬 insecure
 Hashed Password (Fixed):
@@ -204,12 +229,13 @@ if request.args.get('admin') == 'true':
 Role-Based Access (Fixed):
 if current_user.role == 'admin':
     return render_template('admin.html')
+
+
 ________________________________________
-✅ Key Takeaways
-•	Understand how OWASP Top 10 flaws appear in small web apps
-•	Practice auditing and fixing real-world vulnerabilities
-•	Learn Python, Flask, bcrypt, and PyTest
-•	Demonstrate CI/CD integration for security workflows
+# 7. 👏 Credits
+This repo is designed for learning purposes and project portfolios. Inspired by real-world vulnerabilities and built for junior security analysts.
+________________________________________
+Feel free to fork and improve! 💪
 ________________________________________
 🛠️ Try It Yourself
 1.	Clone the repo
@@ -217,9 +243,4 @@ ________________________________________
 3.	Run the vulnerable version
 4.	Walk through README
 5.	Harden it and contribute fixes 🎉
-________________________________________
-👏 Credits
-This repo is designed for learning purposes and project portfolios. Inspired by real-world vulnerabilities and built for junior security analysts.
-________________________________________
-Feel free to fork and improve! 💪
 
