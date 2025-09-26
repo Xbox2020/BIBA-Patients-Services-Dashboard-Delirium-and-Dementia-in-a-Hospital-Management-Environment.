@@ -172,6 +172,8 @@ With the previous steps and preparations, the data model can be established for 
 #### 2.1A. DAX and Measures
 
 - Here are some of the DAX Calculations grouped by Categories (feel free to make changes);
+- 
+- Performance and Operational Efficiency (aka Demand/Utilisation of Resources).
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
@@ -186,6 +188,9 @@ With the previous steps and preparations, the data model can be established for 
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
+
+- Time Series (aka Sustainability and Provisioning).
+
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
@@ -198,6 +203,7 @@ With the previous steps and preparations, the data model can be established for 
 | Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
+- Costs and Finances (Aka Profitability)
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
