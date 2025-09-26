@@ -256,13 +256,12 @@ The Dashboard content into five main pages:
    -    Average Cost Per Encounter e.g. £3,144 ((-3.5% | reduced by £120) and Formatted in Green with Up-pointing Arrow to show improvement.
      
 - 	How many patients have been admitted (over time)
-- 	- How Much is the average cost per encounter (QTD)
-   - 	Total Costs e.g. £691,757
-- 		Total Costs e.g. £3,457
-- 		Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
+ 	- 	Total Costs e.g. £691,757
+    - 	Total Costs e.g. £3,457
+    - 	Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
 - 		
      
-- How long are patients staying in the hospital (Weekly and Monthly)
+  How long are patients staying in the hospital (Weekly and Monthly)
 - 		Average Duration of a visit	e.g. 42 mins (-3.5% | reduced by 12mins) and Formatted in Green to show improvement.
 
 - 
