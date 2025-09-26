@@ -83,13 +83,16 @@ ________________________________________
 #### 2.1B. Clone the repo or download the files to use on PC	
 Using the URL below, on the linked Repo, run the following; https://github.com/yourusername/flask-vuln-harden.git
 
+
 Or Copy this code to use;
+
 
 
 						cd flask-vuln-harden
 						python3 -m venv venv
 						source venv/bin/activate
 						pip install -r requirements.txt
+
 
             
 #### 2.1C. Get Data: Undersand the Data
