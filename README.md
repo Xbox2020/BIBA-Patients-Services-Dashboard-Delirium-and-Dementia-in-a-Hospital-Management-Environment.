@@ -186,7 +186,7 @@ With the previous steps and preparations, the data model can be established for 
 
 
 #### 2.1b. DAX and Measures
-Here are some of the DAX Calculations grouped by Categories (feel free to make changes);
+Here are some of the DAX Calculations grouped by Categories (feel free to make changes), download the DAX Codes from the mail file Zip folder;
 
 ##### Performance and Operational Efficiency (aka Patient Volume & Flow Metrics, Demand/Utilisation of Resources).
 	- These track the "throughput" of the hospital. Crowding and delays here directly impact patient care.
