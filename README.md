@@ -163,10 +163,10 @@ With the previous steps and preparations, the data model can be established for 
 | Date Table & Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Admissions       | Grouping and Categorisation for Filters and Slicers       |  By definition, only the Inpatient class includes overnight visits, which should be identified as admissions. However, data showed that visits under different encounter classes also had overnight stays, with some showing hundreds of days of stay. Thus, admissions and non-admissions were built by looking at the days stayed in the hospital rather than only the encounter classes.                  |
 | Re-Admissions Lacuna    | No Clear Data            | For readmission rate calculation, initial admissions and readmissions need to be identified. Initially, only these two types were considered based on visit dates. However, many visits were regular daily visits over consecutive days and should not be counted as re-admissions.                    |
-| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         |xxxxxxxxxxx Date Dependencies and DAX or other calculations    | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | xxxxxxxxxxxDate Dependencies and DAX or other calculations    | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | xxxxxxxxxxxDate Dependencies and DAX or other calculations    | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
 #### 2.1b. DAX and Measures
@@ -203,12 +203,12 @@ Here are some of the DAX Calculations grouped by Categories (feel free to make c
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
-| ER Wait Time (Door-to-Doctor)        | The average time a patient waits to be seen by a physician. A shorter, stable time indicates good ER flow.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Surgery Cancellation Rate         | Tracks operating room efficiency. A high or rising rate indicates scheduling or resource problems.    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| ER Wait Time (Door-to-Doctor)        | The average time a patient waits to be seen by a physician. A shorter, stable time indicates good ER flow.   | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Surgery Cancellation Rate         | Tracks operating room efficiency. A high or rising rate indicates scheduling or resource problems.    | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Medication Administration Timeliness        | The percentage of medications given on schedule.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Monthly Hospital-Acquired Infection Rate       | Tracks the effectiveness of xxxxxxxxxxxx   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Monthly Hospital-Acquired Infection Rate       | Tracks the effectiveness of xxxxxxxxxxxx   | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Weekly Average ER Wait Time      | Tracks the effectiveness of xxxxxxxxxxx  | A bar chart below it: Showing "Average ER Wait Time" by week. A spike would prompt an immediate investigation.  |
-| Patient Fall Rate       | Tracks the effectiveness of fall-prevention protocols.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Patient Fall Rate       | Tracks the effectiveness of fall-prevention protocols.   | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
 ##### Staffing & Efficiency Metrics.
@@ -216,10 +216,10 @@ Here are some of the DAX Calculations grouped by Categories (feel free to make c
 
 | **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
-| Nurse-to-Patient Ratio        | Tracking this over time can reveal correlations with patient fall rates or infection rates.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Overtime Hours        | A rising trend may indicate chronic understaffing, which can lead to staff burnout and errors.   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Staff Absentism and Reasons         | Staffing and Human Capital Mananagement   | The dashboard is using  calendar year as the years range instead of fiscal year.  |
-| Bank Staffing Utilisations Ratio         | Staffing and Human Capital Mananagement wrt Business Model     | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Nurse-to-Patient Ratio        | Tracking this over time can reveal correlations with patient fall rates or infection rates.   | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Overtime Hours        | A rising trend may indicate chronic understaffing, which can lead to staff burnout and errors.   | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Staff Absentism and Reasons         | Staffing and Human Capital Mananagement   | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Bank Staffing Utilisations Ratio         | Staffing and Human Capital Mananagement wrt Business Model     | xxxxxxxxxxxThe dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
 
