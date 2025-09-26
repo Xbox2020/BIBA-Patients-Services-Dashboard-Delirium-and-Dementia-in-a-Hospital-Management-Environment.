@@ -33,8 +33,9 @@ ________________________________________
 
   (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
    - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
-   - Easy flow and navigation to Key Metrics and should consist of high-level KPIs.
+- Easy flow and navigation to Key Metrics and should consist of high-level KPIs.
 
+   - 	Total Costs e.g. £691,757
    - 	Total Costs
    - The count of admissions
    - The average duration per visit
