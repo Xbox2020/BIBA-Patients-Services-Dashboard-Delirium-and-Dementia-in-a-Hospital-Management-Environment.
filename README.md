@@ -263,8 +263,9 @@ The Dashboard content into five main pages:
   How long are patients staying in the hospital (Weekly and Monthly)
     - 	Average Duration of a visit	e.g. 42 mins (-3.5% | reduced by 12mins) and Formatted in Green to show improvement.
 
-- 
-3. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management. The core question it answers is: "Are we improving the quality and efficiency of patient care?"
+  
+2. Overview page: This page is designed for the executive team, providing answers to the main questions. It helps administrators and clinicians move from reactive problem-solving to proactive management.
+3. Executive Summary: The core question it answers is "Are we improving the quality and efficiency of patient care?"
 4. Costs (by encounters) and Insurance information: This page focuses on encounter costs and related insurance information.
 5. Encounters: This page distinguishes between admissions and visits, providing clear insights.
 6. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently performed procedures.
