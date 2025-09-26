@@ -236,6 +236,24 @@ ________________________________________
 
 ✅ 3. Visualisation: 
       - Including a Drill-through feature
+
+	  ### 2.4🔍 Secure and Publish 
+#### 2.4.1. Relationships and Tables
+1. CI Workflow 🌀
+GitHub Actions Workflow .github/workflows/main.yml
+name: Flask App Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - run: pytest
 •	
 •	
 •	
