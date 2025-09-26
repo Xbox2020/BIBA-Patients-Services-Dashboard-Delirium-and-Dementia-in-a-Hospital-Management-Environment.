@@ -8,7 +8,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
   (a) 📚 This beginner-friendly project walks through building a web app, identifying key vulnerabilities of a Hospital Operation and Demand on Resources (based on the NHS Health Management Plan), Critical End-Points, and then fixing them with proper security controls, insights and business led decision making from Data. Ideal for your Analyst portfolio!
 
   
-  (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
+  (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports in a story-telling way (industry sort requirement and a skill-Advantage for Analysts)around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
      - Attributes from encounters and procedures, including encounter class, encounter description, procedure description, and procedure reasons.
 
   
@@ -43,7 +43,7 @@ ________________________________________
 |-------------------------------|------------------------------------------------------------------------------ |
 | Instructions                  | Clear No-Fluff Instructions are produced to show How to run, replicate audit, and improve this Project Mandate.                                    |
 | Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
-| Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
+| Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs from a Project Management PoV, and dealing with Assumptions when there is zero stakeholder clarity.      |
 | Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and common bugs.                                       |
 | DAX, M-Code and Table     | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each encounter.                          |
 | Cheats and Special Visuals                        | Special DAx methods and Visuals are built.  e.g. Extracted the hour of each encounter visit to build a demand metric chart.      Grouped procedure table to get procedure line cost totals for each encounter, then merged this into the encounter table.                     |
@@ -51,7 +51,7 @@ ________________________________________
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals.                            |
 | Combining Asset                    | Combined SQl, M-Code and DAX where required and Built all parameter tables for dynamic analysis.                                  |
 | Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
-| Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
+| Assumptions and Standards                       | `/gifs`, `/screenshots`, README embedded visuals                            |
 
 
 ________________________________________
