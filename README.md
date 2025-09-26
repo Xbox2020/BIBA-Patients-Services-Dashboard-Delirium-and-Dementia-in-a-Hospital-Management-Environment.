@@ -17,6 +17,8 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
    - Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
    - General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
    - Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
+   - Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
+   - Deals with Data Safety, PII and Confidentiality Modeling for multi-user business cases.
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
@@ -36,14 +38,14 @@ ________________________________________
 
 | **Sections**                    | **Content & Purpose**                                                                 |
 |-------------------------------|------------------------------------------------------------------------------ |
-| Instructions                  | Clear No-Fluff Instructions are produced to show How to run, replicate audit, and improve this Project                                    |
+| Instructions                  | Clear No-Fluff Instructions are produced to show How to run, replicate audit, and improve this Project Mandate.                                    |
 | Data and its Exploration      | To understand admission groups (Non Admissions, Admissions and Re-Admissions) and Prepare the data for an effective data model for analysis.|
 | Data Profiling                  | Enables uderstanding and Cleaning Data, Managing Expectations and Seeking Stakeholder inputs (Project Management PoV.      |
-| Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and bugs                                       |
+| Queries & Codes         | In Power Query: Build, Secure logic, link SQL DB, remove errors and common bugs.                                       |
 | DAX, M-Code and Table     | Built dimension tables, including encounter class, age, age group, and date. Merged encounter and patient tables to get the age at encounter and the date differences between death and each encounter.                          |
 | Cheats and Special Visuals                        | Special DAx methods and Visuals are built.  e.g. Extracted the hour of each encounter visit to build a demand metric chart.      Grouped procedure table to get procedure line cost totals for each encounter, then merged this into the encounter table.                     |
 | Calculations                 | In Power BI Desktop: Built a calculated table from the encounters table for admissions and readmissions, obtaining the previous discharge date for each admission record using the Offset function in DAX. Also calculated LOS by minutes for non-admission encounters, and by days for admission encounters. Then built LOS bins for different minute ranges. Built an admission type calculated column to identify initial admissions and readmissions. Built a mortality indicator calculated column for mortality rate calculation.                                    |
-| Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
+| Assets                        | `/gifs`, `/screenshots`, README embedded visuals.                            |
 | Combining Asset                    | Combined SQl, M-Code and DAX where required and Built all parameter tables for dynamic analysis.                                  |
 | Data Model                  | Shows how to run, replicate audit, and improve relationships, Dependencies and Improve overall performance and user interactions, with special consideration on how Relationships and Data is Managed to meet Requirements and Enable Calculations.                                 |
 | Assets                        | `/gifs`, `/screenshots`, README embedded visuals                            |
@@ -79,18 +81,18 @@ https://github.com/yourusername/flask-vuln-harden.git
 						pip install -r requirements.txt
 
             
-#### 3. Undersand the Data
+#### 3. Get Data: Undersand the Data
 •	Open and connect to all related files.
 •	Watch Installation videos in Youtube Channel
 
 
 
 
-#### 4. Start & Test  the app
+#### 4. Load, Transform and Profile
 						python app.py
 ________________________________________
  
-### Steps followed 🧪
+##### Steps followed 🧪
 
 - Step 1 : Created secured connection to Daraset
   
@@ -116,7 +118,8 @@ Before Screenshot:
 
 
 ________________________________________
-### 🔍 Data Model
+### 🔍 Data Modelling
+#### 1. Relationships and Tables
 
 Special emphasis is laid here as a major area for the PL300.
 With the previous steps and preparations, the data model can be established for dashboard building, giving participants increased competence in Power BI as a Analyst.
@@ -124,17 +127,22 @@ With the previous steps and preparations, the data model can be established for 
 Special consideration was given to the procedures table. Although there are possible links to dimension tables, the only relationship set is to the encounter table to ensure the correct linkage between encounters and procedures.
 
 
-| **Area of Interest**                       | **Logic**         | **Notes**              |
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
 |------------------------------------------|--------------------------|----------------------------|
-| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Date Table & Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 | Admissions       | Grouping and Categorisation for Filters and Slicers       |  By definition, only the Inpatient class includes overnight visits, which should be identified as admissions. However, data showed that visits under different encounter classes also had overnight stays, with some showing hundreds of days of stay. Thus, admissions and non-admissions were built by looking at the days stayed in the hospital rather than only the encounter classes.                  |
 | Re-Admissions Lacuna    | No Clear Data            | For readmission rate calculation, initial admissions and readmissions need to be identified. Initially, only these two types were considered based on visit dates. However, many visits were regular daily visits over consecutive days and should not be counted as re-admissions.                    |
+| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 
 
 
 
-
+### 🔍 Visualisation
+#### 1. Relationships and Tables
 3. Hardened the app (commit 2)
 •	✅ Implemented bcrypt password hashing
 •	✅ Added user role-based control
@@ -145,6 +153,13 @@ pytest
 Sample Test Snippet:
 def test_password_hashed():
     assert not 'password123' in get_user_db_password()
+
+
+
+
+
+### 🔍 Secure and Publish 
+#### 1. Relationships and Tables
 5. CI Workflow 🌀
 GitHub Actions Workflow .github/workflows/main.yml
 name: Flask App Test
