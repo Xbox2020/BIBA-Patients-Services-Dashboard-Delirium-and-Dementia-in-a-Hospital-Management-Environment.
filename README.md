@@ -151,10 +151,10 @@ Before Screenshot:
   (b) Managing File Size 🚪🚪
    - 	I chose to only focus on encounters because they include all information, from simple check-ups to complex operations,  providing an unfiltered overview of the hospital.
 
-   - 	The only interaction on this page is the month and year filter, enabling executives to view monthly, yearly, and year-to-date performance if the year is incomplete. The chart titles and texts change accordingly.
   
   (c) Structuring for Modelling and Relationships 🖊️🖊️
 
+   - 	The only interaction on this page is the month and year filter, enabling executives to view monthly, yearly, and year-to-date performance if the year is incomplete. The chart titles and texts change accordingly.
 	
 
 
