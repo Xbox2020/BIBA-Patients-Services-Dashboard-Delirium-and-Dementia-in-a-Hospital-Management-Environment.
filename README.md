@@ -255,7 +255,8 @@ The Dashboard content into five main pages:
    - 	Variance over the period e.g. (-14.8% | reduced by £12,000) and Formated in Green with Arorws pointing down to convey Cost Reductions when good or red for bad and arrows pointing up to show increased costs from last values).
    -    Average Cost Per Encounter e.g. £3,144 ((-3.5% | reduced by £120) and Formatted in Green with Up-pointing Arrow to show improvement.
      
-- 	How many patients have been admitted (over time)?
+- 	How many patients have been admitted (over time)
+- 		xxxx
    - 	Total Costs e.g. xx £3,457
    - 	 Total Readmissions Rate e.g. 59.4% (310 patients | increased by 12) and formatted in Red if higher than set Target
      
