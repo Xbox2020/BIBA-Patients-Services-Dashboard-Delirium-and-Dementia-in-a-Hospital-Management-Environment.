@@ -6,7 +6,11 @@ Welcome to the Flask Vulnerability Audit & Hardening project!
 
 # 1. About the Project and Its Repo
 📚 This beginner-friendly project walks through building a deliberately insecure web app, identifying key vulnerabilities (based on the OWASP Top 10), and then fixing them with proper security controls. Ideal for your cybersecurity portfolio!
+
+  
 ####👨‍🏫👩🏼‍🏫👨‍🎓 Teaches how to build reports around patient, encounter, and procedure data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
+
+  
 ####🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competecies and exam topics)
 
 
