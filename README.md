@@ -63,9 +63,13 @@ ________________________________________
 ### ⚙️ Skills, Tools and Requirements
 ###
 •	Power BI Desktop Free User Download and Account
+
 •	Excel
+
 •	DAX
+
 •	SQL
+
 •	Basic Data Knowledge as related to the Sector and Business Case (Use of NHS Data Dictionary.
 ________________________________________
 
@@ -75,6 +79,7 @@ ________________________________________
 
 #### 2.1A. Set up the Environment	
 •	With your account, download and connect all related files.
+
 •	Watch Installation videos in Youtube Channel
 
 
@@ -97,12 +102,14 @@ Or Copy this code to use;
             
 #### 2.1C. Get Data: Undersand the Data
 •	Open and connect to all related files.
+
 •	Watch Installation videos in Youtube Channel.
 
 
 
 #### 2.1D. Load, Transform and Profile
 •	Explains the Data Structure and files utilisation.
+
 •	Explains how certain Data is "cut-off" as required and to avoid redundancies with unnecessary uploads.
 
 
