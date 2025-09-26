@@ -78,7 +78,7 @@ ________________________________________
 
 
 #### 2.1A. Set up the Environment	
-•	With your account, download and connect all related files.
+•	With your account, download and connect all related files. You can also get these from the Dashboard Youtube Video Preview Link.
 
 •	Watch Installation videos in Youtube Channel
 
@@ -171,6 +171,44 @@ With the previous steps and preparations, the data model can be established for 
 
 #### 2.1A. DAX and Measures
 
+- Here are some of the DAX Calculations grouped by Categories (feel free to make changes);
+
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
+|------------------------------------------|--------------------------|----------------------------|
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Year Range Selection         | Date Dependencies and DAX or other calculations    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+
+
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
+|------------------------------------------|--------------------------|----------------------------|
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+
+
+
+| **Areas of Interest**                       | **Logic**         | **Notes**              |
+|------------------------------------------|--------------------------|----------------------------|
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
+| Total Patients         | All Patients Encounters    | The dashboard is using  calendar year as the years range instead of fiscal year.  |
 
 ________________________________________
 
