@@ -226,17 +226,19 @@ ________________________________________
 
 #### 3.2.3.  🌀 Areas for Improvements:
 📊 1. Data Load: 
+
       - This page is designed for the executive team, providing answers to the main questions.
 	  - 
 
 
-⛓️‍💥 2. Modelling: This page focuses on encounter costs and related insurance information.3. Hardened the app (commit 2)
+⛓️‍💥 2. Modelling: This page focuses on encounter costs and related insurance information.3. Hardened the app (commit 2):
+
       - Writing easy to understand Scripts
       - Calculating other Metrics for effectiveness and profits in a non-profit driven eco-system.
       - Reducing Files Upload and Calculation times, using lean data.
 
 
-	  ### 3.1🔍 Copy this Code! 
+	  ### 2.1🔍 Copy this Code! 
 	  GitHub Actions Workflow .github/workflows/main.yml
 		name: Flask App Test
 		on: [push]
@@ -247,6 +249,7 @@ ________________________________________
 
 
 ✅ 3. Visualisation: 
+
       - Including special features (Drill-through, Bookmarks, Tooltips)
       - 	  
       - 
