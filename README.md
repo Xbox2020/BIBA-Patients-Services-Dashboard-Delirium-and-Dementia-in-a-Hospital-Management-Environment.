@@ -6,7 +6,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 # 1. About the Project and Its Repo
   (a) 📚 This beginner-friendly project walks through building a web app, identifying key vulnerabilities of a Hospital Operation and Demand on Resources (based on the NHS Health Management Plan), Critical End-Points, and then fixing them with proper security controls, insights and business led decision making from Data. Ideal for your Analyst portfolio!
-   - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
+	   - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
    - 
 	 
 
