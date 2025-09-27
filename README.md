@@ -17,9 +17,9 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
   
   (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competencies and exam topics)
    - Identifies key metrics and attributes for each analysis section.
-- b. Easy flow and navigation to Key Metrics and should consist of high-level KPIs;
+-  
    - 	Total Costs.
-   - 	 Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
+   - 	Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
    - 	General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
    - 	Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
    - 	Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
