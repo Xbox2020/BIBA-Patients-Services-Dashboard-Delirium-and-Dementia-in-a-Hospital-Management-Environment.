@@ -19,11 +19,11 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 -    Identifies key metrics and attributes for each analysis section.
 		- xxx
 		- Total Costs.
-   - 	Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
-   - 	General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
-   - 	Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
-   - 	Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
-   - 	Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
+		- Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
+		- General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
+		- Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
+		- Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
+		- Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
