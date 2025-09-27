@@ -34,7 +34,18 @@ ________________________________________
 ## 1.1 🎯 Business Case, Problem Statement and Goals
 
   (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
-   - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas. The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
+   - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas towards decision making.
+   - The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
+   - How many patients were admitted over time?
+   - How many patients have been admitted or readmitted over time and per years?
+   - How long are patients staying in the hospital, on average?
+   - How much is the average cost per visit?
+   - How many procedures are covered by insurance?
+   - How many overall encounter costs are covered by insurance?
+   - Average admissions and impacts of demographics, seasonality or outlier trends and events?
+   - insights that may help make "Patient 1st" Agenda a success.
+
+
 - a. This approach allows executives to receive the most relevant information in just a few seconds.
   
 - b. Easy flow and navigation to Key Metrics and should consist of high-level KPIs;
