@@ -10,6 +10,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
   
   (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports in a story-telling way (ian ndustry sort requirement and a skill-Advantage for Analysts) around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
+
 		- learn about Attributes from encounters and procedures, including encounter class, encounter description, procedure description, and procedure reasons.
 		- Learn tricks that make your skills pop-out!
 	 
