@@ -52,6 +52,7 @@ ________________________________________
 		- How much is the average cost per visit?
 		- How many procedures are covered by insurance?
 		- How many overall encounter costs are covered by insurance?
+		- How many encounters or procedures are not covered by insurance (that will significantly affect the Trust)?
 		- Average admissions and impacts of demographics, seasonality or outlier trends and events?
 		- Insights on year on year changes
 		- Month on Month changes
