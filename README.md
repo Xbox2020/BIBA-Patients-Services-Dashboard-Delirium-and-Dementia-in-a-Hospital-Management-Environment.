@@ -15,7 +15,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 		- Tricks that make your skills pop-out!
 	 
 
-
+ 
   
   (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competencies and exam topics)
 -    Identifies key metrics and attributes for each analysis section.
