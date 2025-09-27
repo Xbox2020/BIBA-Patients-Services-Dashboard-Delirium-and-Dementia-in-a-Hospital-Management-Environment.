@@ -9,17 +9,19 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
 
   
-  (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports in a story-telling way (industry sort requirement and a skill-Advantage for Analysts)around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
-     - Attributes from encounters and procedures, including encounter class, encounter description, procedure description, and procedure reasons.
+  (b) 👨‍🏫👩🏼‍🏫👨‍🎓It teaches how to build reports in a story-telling way (ian ndustry sort requirement and a skill-Advantage for Analysts) around patient encounter, clinical staff management and procedures, led by data to provide KPI and operational performance reports, and to uncover deeper insights from the dataset that answer key questions required by stakeholders.
+   - learn about Attributes from encounters and procedures, including encounter class, encounter description, procedure description, and procedure reasons.
+   - Learn tricks that make your skills pop-out!
+	 
 
   
   (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competencies and exam topics)
-   - Identifies key metrics and attributes for each analysis section
-   - Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
+   - Identifies key metrics and attributes for each analysis section 
+   - Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
    - General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
    - Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
    - Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
-   - Deals with Data Safety, PII and Confidentiality Modeling for multi-user business cases.
+   - Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
@@ -36,19 +38,31 @@ ________________________________________
 - a. This approach allows executives to receive the most relevant information in just a few seconds.
   
 - b. Easy flow and navigation to Key Metrics and should consist of high-level KPIs;
-
-   - 	Total Costs
-   - 	The count of admissions
-   - 	The average duration per visit
-   - 	The average cost per visit
-   - 	The percentage of costs covered by insurances
-   - 	The occupancy of the hospital beds
+   - 	Total Costs.
+   - 	The count of admissions.
+   - 	The average duration per visit.
+   - 	The average cost per visit.
+   - 	The percentage of costs covered by insurances.
+   - 	The occupancy of the hospital beds.
  
-- c. Insights into Contractors contribution to Patient 1st ;
+- c. Management want to make decisions based on Insights that can help achieve "Patient 1st" Objectives;
+   - 	Major procedures and correlations (with Insurance, Mortalities and Negatives).
+   - 	Trends: Costs related and other drivers.
+   - 	share of procedure costs per insurance provider paid over time periods
+
+
+  
+- c. Deeper understanding and Insights into Contractors contribution to "Patient 1st" Objectives;
+   - 	Insights on Patients' Insurance Costs covered by the Hospital.
+   - 	The % of payments made to or by contractors.
+   - 	The Trends and other insights in costs.
+   - 	Percentages of procedure costs related to specific Insurance payments
   
   (2) Many beginner web dashboards lack secure handling of sensitive data and user access control. This project demonstrates the dangers of such design and how to correct them in its advanced phase 2.
 
   (3) This learning is critical, as it provides practical structured knowledge that participants can apply towards the PL300 Microsoft Certification path, in such work environments and responding to impossible requirements.
+   - 	It teaches how to set a target bar or expectation: Here the KPI for % Cost covered by Insurance has a self-set goal of covering at least 45% of expenses; bars below this threshold are highlighted in red.
+   - 	The same applies to Bed occupancy, where overcapacity is shown in red.
 
   
 ________________________________________
@@ -87,6 +101,10 @@ ________________________________________
 •	SQL
 
 •	Basic Data Knowledge as related to the Sector and Business Case (Use of NHS Data Dictionary.
+
+•	A Curious willing to learn mindset
+
+
 ________________________________________
 
 # 2. Step by Step like in PL300
@@ -268,7 +286,7 @@ ________________________________________
 ### 2.3🔍 Visualisation
 #### 2.3.1. Pages, Contents and Navigations
 
-The Dashboard content into five main pages:
+The Dashboard content is divided into main pages to attend to the requirements:
 1. Cover Page: Should attend to the Major Questions and Big Numbers per Service Concerns;
 - How Much is the average cost per encounter (QTD)
    - 	Total Costs e.g. £691,757
@@ -291,9 +309,10 @@ The Dashboard content into five main pages:
 6. Procedures: I used a table visualization on this page to allow multiple sorting options, showcasing the most frequently performed procedures.
 7. Patient profiling: This page delves into patient profiles. A side note: I'm currently facing issues with the Azure map not working when embedded. I plan to resolve this after posting the challenge.
 8. How to Use Page: Defines the Navigation for non-tech users to utilise the dashboard effectively and efficiently.
-9. Time Series Analysis: It transforms raw data into a story over time. Spotting Trends, showing patterns, helping with Froecasting and measuring impacts. In a hospital, a Time Series Analysis page is vital because it turns operational and clinical data into a "heartbeat" of the hospital's health over time.
+9. Time Series Analysis: It transforms raw data into a story over time. Spotting Trends, showing patterns, helping with Froecasting and measuring impacts.
+    - 	In a hospital, a Time Series Analysis page is vital because it turns operational and clinical data into a "heartbeat" of the hospital's health over time.
 10. Forecast Page
-11. Insights
+11. Insights Page
 12. Recommendations
 
 #### 2.3.2. Considerations:
