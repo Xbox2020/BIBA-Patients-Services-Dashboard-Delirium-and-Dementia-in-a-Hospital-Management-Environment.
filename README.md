@@ -13,6 +13,9 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
   -    Learn
 		- About Attributes from encounters and procedures, including encounter class, encounter description, procedure description, and procedure reasons.
 		- Tricks that make your skills pop-out!
+  		- Selecting a period filter will prompt and display the variation to the alternate periods (e.g same period last year, same period vs last cycle, such as This month vs Last month, this month vs this same month last year)
+  		- Use of the OPEL Cycles as filters (OpelHours -4, 12 ), (OpelDays - 28, 31, 62 ), (Opelweeks - 6, 52, 104, 78, 65 ), (OpelMonths - )
+  		- Performance Target Lines [45% General, (62 days at 85%) and (31 days at 96% ) for Cancer]
 	 
 
  
