@@ -16,7 +16,7 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 
   
   (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competencies and exam topics)
-   - Identifies key metrics and attributes for each analysis section.
+-   - Identifies key metrics and attributes for each analysis section.
    
    - 	Total Costs.
    - 	Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
