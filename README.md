@@ -28,8 +28,9 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 		- Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
 
 
-### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+
 ###  ☕ Buy me coffee 🧣 or a Cake 🧁
+### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
    - Get Access to the Data.
    - Get Unlimited Access to the Templates and Walk-through Videos.
    - Collaborate with other Analysts to increase your worth, network and Value.
