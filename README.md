@@ -49,9 +49,9 @@ ________________________________________
 		- How many procedures are covered by insurance?
 		- How many overall encounter costs are covered by insurance?
 		- Average admissions and impacts of demographics, seasonality or outlier trends and events?
-   - Insights on year on year changes
-   - Month on Month changes
-   - Changes related to the National Health Board Turn Around Cycles ( 
+		- Insights on year on year changes
+		- Month on Month changes
+  		- Changes related to the National Health Board Turn Around Cycles ( 
 		- insights that may help make "Patient 1st" Agenda a success.
 
 
