@@ -17,11 +17,11 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
   
   (c) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Structured to Prepare users for the PL300 Exam Certification (as it answers most competencies and exam topics)
    - Identifies key metrics and attributes for each analysis section 
-   - Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
-   - General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
-   - Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
-   - Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
-   - Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
+   - 	 Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
+   - 	General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
+   - 	Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
+   - 	Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
+   - 	Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
 
 
 ### Dashboard Youtube Video Preview Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
@@ -35,15 +35,15 @@ ________________________________________
 
   (1) The Board of stakeholders needs and requirements are identified and responded to in this live data led dashboard.
    - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas towards decision making.
-   - The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
-   - How many patients were admitted over time?
-   - How many patients have been admitted or readmitted over time and per years?
-   - How long are patients staying in the hospital, on average?
-   - How much is the average cost per visit?
-   - How many procedures are covered by insurance?
-   - How many overall encounter costs are covered by insurance?
-   - Average admissions and impacts of demographics, seasonality or outlier trends and events?
-   - insights that may help make "Patient 1st" Agenda a success.
+   - 	 The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
+   - 	How many patients were admitted over time?
+   - 	How many patients have been admitted or readmitted over time and per years?
+   - 	How long are patients staying in the hospital, on average?
+   - 	How much is the average cost per visit?
+   - 	How many procedures are covered by insurance?
+   - 	How many overall encounter costs are covered by insurance?
+   - 	Average admissions and impacts of demographics, seasonality or outlier trends and events?
+   - 	insights that may help make "Patient 1st" Agenda a success.
 
 
 - a. This approach allows executives to receive the most relevant information in just a few seconds.
