@@ -58,9 +58,14 @@ ________________________________________
    - The dashboard address issues such as;
 		- Planned or upcoming events that may affect OPELs ( Surge Plan, Strikes, Weather Changes, Closures, Workforce Increments)
   		- Reviewed Changes inline with the National Health Board Turn Around Cycles (Rolling 12 months for Staff Turnover, Sickeness etc)
-  		-  Track and Reduce Negatives ( 4hr breach performance (Type 1),  12hr Length of Stay (LOS) performance,  Non admitted target compliance 70%, 52 weeks to start consultant-led treatment, 104, 78, 65, 52 weeks breaches to treatment)
+  		- volumes of activity relative to previous periods
+  		- ED target of being seen within 4, 12 hours, 
+  		- Diagnostic waits waiting target must be under 6, 52 weeks
+		-  Track and Reduce Negatives ( 4hr breach performance (Type 1),  12hr Length of Stay (LOS) performance,  Non admitted target compliance 70%, 52 weeks to start consultant-led treatment (i.e wait time), 104, 78, 65, 52 weeks breaches to treatment)
   		-  Include Cancer Standards from 2023  National Cancer Waiting Times guidance [(62 days and 85% | 31 days and 96% )Performance Target Line, PTL)], where  Performance is reported one month in arrears due to the extended reporting period for this indicator.
-  		-  Focus on Non-admitted performance – using discharge time. 
+  		-  Focus on Non-admitted performance – using discharge time.
+  		-  Income and Expenditure (I&E) performance (and relative to  forecast outturn position/ deficit wrt  full year plan).
+  		-  Cash position
 
 
 
