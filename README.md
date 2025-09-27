@@ -55,8 +55,8 @@ ________________________________________
 
 
 - a. This approach allows executives to receive the most relevant information in just a few seconds to deal with  Operational Pressure Escalation Levels (OPELs).
-		
-  		- Planned or upcoming events that may affect OPELs ( Surge Plan, Strikes, Weather Changes, Closures, Workforce Increments)
+
+		- Planned or upcoming events that may affect OPELs ( Surge Plan, Strikes, Weather Changes, Closures, Workforce Increments)
   		- Review Changes inline with the National Health Board Turn Around Cycles (Rolling 12 months for Staff Turnover, Sickeness etc)
   		-  Track and Reduce Negatives ( 4hr breach performance (Type 1),  12hr Length of Stay (LOS) performance,  Non admitted target compliance 70%, 52 weeks to start consultant-led treatment, 104, 78, 65, 52 weeks breaches to treatment)
   		-  Cancer Standards from 2023  National Cancer Waiting Times guidance [(62 days and 85% | 31 days and 96% )Performance Target Line, PTL)], where  Performance is reported one month in arrears due to the extended reporting period for this indicator.
