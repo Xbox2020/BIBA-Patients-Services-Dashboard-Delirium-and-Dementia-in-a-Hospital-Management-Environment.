@@ -1,7 +1,7 @@
 # 
 
 
-# 🔐 BIBA-Patients-Services-Dashboard-Delirium-and-Dementia-in-a-Hospital-Management-Environment Project
+# 🔐 BIBA-Patients-Services-Dashboard-Delirium-and-Dementia-in-a-Hospital-Management-Environment Project.
 Welcome to this Hospital Management Critical Project! This is one of many, visit the Youtube Channel for more!!
 
 # 1. About the Project and Its Repo
@@ -57,8 +57,7 @@ ________________________________________
    - The purpose of the report is to help a hospital's executive team quickly understand its recent performance in key areas towards decision making.
 
 		- The dashboard should scale to accommodate new data over time, and the CEO has asked to summarize any insights from the sample provided.
-		- How many patients were admitted over time?
-		- How many patients have been admitted or readmitted over time and per years?
+		- How many patients were admitted or readmitted over time and per years?
 		- How long are patients staying in the hospital, on average?
 		- How much is the average cost per visit?
 		- How many procedures are covered by insurance?
