@@ -26,10 +26,21 @@ Welcome to this Hospital Management Critical Project! This is one of many, visit
 		- Totals.
 		- Averages.
 		- Dax related to Key demographics such as Gender, Age, Age Group, Race, and Marital, Status
-		- General metrics for encounters and procedures. including counts, costs, rates, Length of Stay (LOS), and averages.
+		- General metrics for encounters and procedures, including counts, costs, rates, Length of Stay (LOS) and averages.
 		- Special metrics for analyzing readmissions and mortalities, including the admission range, dates between the current visit and previous discharge, and dates between death and each admission.
 		- Visualisations that are easy to understand, use and replicate the Exam Scenarios, use and standards.
 		- Deals with Data Safety, PII, publishing  and Confidentiality Modeling for multi-user business cases.
+    
+
+  -   (d) 🛡️👩🏻‍🎓🧑‍💻🙋‍♀️ Learn & Create Stunning Visuals using the most insighful visuals FREE on Power BI.
+-    Maximize space, convey insights, show depth in few lines of codes and most times, even no-code.
+		- Use KPIs
+		- Card
+		- Lollipops
+		- Custom Line Graphs to show time inteligence
+		- Variances on Stacked and Column or Bar Charts
+		- Use Donuts rather than boring Pie Charts
+		- Use Visuals as Slicers, dicers and Filters.
 
 
 
